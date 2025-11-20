@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 let db;
  
 app.use(express.json());
-app.set('port', 3000);
+// app.set('port', 3000);
  
 app.use ((request,response,next) => {
     response.setHeader('Access-Control-Allow-Origin', '*');
@@ -78,4 +78,6 @@ app.delete('/collection/:collectionName/:id', (req, res, next) => {
     })
 })
 
-app.listen(3000);
+const port = process.env.PORT || 3000;
+
+app.listen(port);
