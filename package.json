@@ -1,0 +1,16 @@
+{
+  "name": "random-number-api",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^3.6.3"
+  }
+}
