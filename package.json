@@ -2,7 +2,7 @@
   "name": "random-number-api",
   "private": true,
   "scripts": {
-    "start": "node app"
+    "start": "node server1.js"
   },
   "version": "1.0.0",
   "main": "app.js",
@@ -14,3 +14,4 @@
     "mongodb": "^3.6.3"
   }
 }
+
